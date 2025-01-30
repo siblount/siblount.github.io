@@ -1,2 +1,2 @@
-# siblount.gihtub.io
+# siblount.github.io
 A website about me
