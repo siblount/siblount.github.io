@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    background-color: rgb(255, 164, 79);
+}
+
+/* Navigation */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0 auto;
+    background-color: rgb(255, 251, 236); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: color 0.2s, background-color 0.2s; /* Smooth hover effect */
+}
+
+.nav-item a:hover {
+    color: rgb(245, 89, 33);
+    background-color: rgba(245, 89, 33, 0.1); /* Subtle background on hover */
+}
+
+/* Introduction page section */
+.intro-section {
+    width: 50%;
+    min-width: 300px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Cards */
+.card {
+    background-color: rgb(255, 251, 236);
+    border-radius: 5px;
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.header-card {
+    margin-top: 25px;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Skills table styles */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: rgb(245, 89, 33);
+    color: white;
+}
+
+.table-header th {
+    padding: 10px;
+    text-align: left;
+}
+
+.table-cell {
+    padding: 10px;
+    border-bottom: 1px solid rgb(245, 89, 33);
+}
+
+/* Image gallery */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-image {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    color: rgb(245, 89, 33);
+}
+
+/* Main Portfolio Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 251, 236);
+}
+
+.content-wrapper {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    max-width: 300px;
+}
+
+.main-content {
+    flex: 2;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.my-name {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.profile-title {
+    text-align: center;
+    color: #666;
+}
+
+.center-h2 {
+    text-align: center;
+}
+
+/* Project styles */
+.project-subcard {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.job-details {
+    display: flex;
+    gap: 15px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.job-info {
+    flex: 1;
+}
+
+.job-title {
+    margin: 0;
+    color: #333;
+}
+
+.job-date, .job-location {
+    margin: 5px 0;
+    color: #666;
+}
+
+.job-description-list {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.project-tags {
+    margin: 10px 0;
+}
+
+.project-tags span {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+a:hover {
+    color: rgb(245, 89, 33);
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+#achievements-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#city {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Misc for main page content */
+.main-section {
+    width: 50%;
+    min-width: 300px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.profile-container {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.profile-text {
+    font-size: 1.25rem;
+}
+
+.courses-title {
+    color: rgb(245, 89, 33);
+    font-size: 2.5rem;
+}
+
+.courses-list {
+    font-size: 1.1rem;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    list-style-position: inside;
+}
+
+.courses-list li {
+    margin-bottom: 0.5rem;
+    list-style-type: none;
+}
+
+.accent-text {
+    color: orange;
+}
